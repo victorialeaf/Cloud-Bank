@@ -7,12 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C0759AF1FC2454A000D3DCF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C0759AE1FC2454A000D3DCF /* GoogleService-Info.plist */; };
 		5C69EBB31FBE8F7400A2B0ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C69EBB21FBE8F7400A2B0ED /* AppDelegate.swift */; };
 		5C69EBB51FBE8F7400A2B0ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C69EBB41FBE8F7400A2B0ED /* ViewController.swift */; };
 		5C69EBB81FBE8F7400A2B0ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C69EBB61FBE8F7400A2B0ED /* Main.storyboard */; };
 		5C69EBBA1FBE8F7400A2B0ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C69EBB91FBE8F7400A2B0ED /* Assets.xcassets */; };
 		5C69EBBD1FBE8F7400A2B0ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C69EBBB1FBE8F7400A2B0ED /* LaunchScreen.storyboard */; };
 		5C69EBC81FBE8F7400A2B0ED /* Cloud_BankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C69EBC71FBE8F7400A2B0ED /* Cloud_BankTests.swift */; };
+		5C69EBD31FBE925A00A2B0ED /* 249072-200.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C69EBD21FBE925A00A2B0ED /* 249072-200.png */; };
+		5C69EBD51FBE929B00A2B0ED /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C69EBD41FBE929B00A2B0ED /* images.png */; };
+		5C69EBD71FBE92C400A2B0ED /* business.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C69EBD61FBE92C400A2B0ED /* business.png */; };
+		5C69EBD91FBE92F600A2B0ED /* 66766-200.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C69EBD81FBE92F600A2B0ED /* 66766-200.png */; };
+		5C751FBF1FC22A2700BB4B86 /* Transactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C751FBE1FC22A2700BB4B86 /* Transactions.swift */; };
+		5C751FC11FC22A8F00BB4B86 /* AccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C751FC01FC22A8F00BB4B86 /* AccountsViewController.swift */; };
+		5CF922201FC24F5400F63F14 /* TransactionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF9221F1FC24F5400F63F14 /* TransactionsTableViewCell.swift */; };
+		5CF922221FC250AB00F63F14 /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF922211FC250AB00F63F14 /* TransactionModel.swift */; };
+		8D29A2418552540E417D1FB0 /* Pods_Cloud_Bank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B15C9CB1F36C6261232119 /* Pods_Cloud_Bank.framework */; };
+		C23DC584534FCB0F78D75ADF /* Pods_Cloud_BankTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B764E502CF4BEE2791E3425 /* Pods_Cloud_BankTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1448E237F5B336BC4A4744DB /* Pods-Cloud BankTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cloud BankTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cloud BankTests/Pods-Cloud BankTests.debug.xcconfig"; sourceTree = "<group>"; };
+		19526BFB08BA481F785C2FDB /* Pods-Cloud Bank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cloud Bank.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cloud Bank/Pods-Cloud Bank.release.xcconfig"; sourceTree = "<group>"; };
+		5C0759AE1FC2454A000D3DCF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5C69EBAF1FBE8F7400A2B0ED /* Cloud Bank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cloud Bank.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C69EBB21FBE8F7400A2B0ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C69EBB41FBE8F7400A2B0ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +50,18 @@
 		5C69EBC31FBE8F7400A2B0ED /* Cloud BankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cloud BankTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C69EBC71FBE8F7400A2B0ED /* Cloud_BankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cloud_BankTests.swift; sourceTree = "<group>"; };
 		5C69EBC91FBE8F7400A2B0ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C69EBD21FBE925A00A2B0ED /* 249072-200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "249072-200.png"; path = "../../../Desktop/249072-200.png"; sourceTree = "<group>"; };
+		5C69EBD41FBE929B00A2B0ED /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = images.png; path = ../../../Desktop/images.png; sourceTree = "<group>"; };
+		5C69EBD61FBE92C400A2B0ED /* business.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = business.png; path = ../../../Desktop/business.png; sourceTree = "<group>"; };
+		5C69EBD81FBE92F600A2B0ED /* 66766-200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "66766-200.png"; path = "../../../Desktop/66766-200.png"; sourceTree = "<group>"; };
+		5C751FBE1FC22A2700BB4B86 /* Transactions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transactions.swift; sourceTree = "<group>"; };
+		5C751FC01FC22A8F00BB4B86 /* AccountsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsViewController.swift; sourceTree = "<group>"; };
+		5CF9221F1FC24F5400F63F14 /* TransactionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsTableViewCell.swift; sourceTree = "<group>"; };
+		5CF922211FC250AB00F63F14 /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
+		66B15C9CB1F36C6261232119 /* Pods_Cloud_Bank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cloud_Bank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77E7959B6FBC114067A30FE7 /* Pods-Cloud BankTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cloud BankTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cloud BankTests/Pods-Cloud BankTests.release.xcconfig"; sourceTree = "<group>"; };
+		828C4E0073B2BAFA9A67BD9A /* Pods-Cloud Bank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cloud Bank.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cloud Bank/Pods-Cloud Bank.debug.xcconfig"; sourceTree = "<group>"; };
+		8B764E502CF4BEE2791E3425 /* Pods_Cloud_BankTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cloud_BankTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D29A2418552540E417D1FB0 /* Pods_Cloud_Bank.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +77,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C23DC584534FCB0F78D75ADF /* Pods_Cloud_BankTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		524A22C149BAC43689ADAB5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				828C4E0073B2BAFA9A67BD9A /* Pods-Cloud Bank.debug.xcconfig */,
+				19526BFB08BA481F785C2FDB /* Pods-Cloud Bank.release.xcconfig */,
+				1448E237F5B336BC4A4744DB /* Pods-Cloud BankTests.debug.xcconfig */,
+				77E7959B6FBC114067A30FE7 /* Pods-Cloud BankTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5C69EBA61FBE8F7400A2B0ED = {
 			isa = PBXGroup;
 			children = (
 				5C69EBB11FBE8F7400A2B0ED /* Cloud Bank */,
 				5C69EBC61FBE8F7400A2B0ED /* Cloud BankTests */,
 				5C69EBB01FBE8F7400A2B0ED /* Products */,
+				524A22C149BAC43689ADAB5B /* Pods */,
+				ADDCD7E1286B53856E475527 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,10 +120,19 @@
 			children = (
 				5C69EBB21FBE8F7400A2B0ED /* AppDelegate.swift */,
 				5C69EBB41FBE8F7400A2B0ED /* ViewController.swift */,
+				5C751FC01FC22A8F00BB4B86 /* AccountsViewController.swift */,
+				5C751FBE1FC22A2700BB4B86 /* Transactions.swift */,
+				5CF9221F1FC24F5400F63F14 /* TransactionsTableViewCell.swift */,
 				5C69EBB61FBE8F7400A2B0ED /* Main.storyboard */,
 				5C69EBB91FBE8F7400A2B0ED /* Assets.xcassets */,
 				5C69EBBB1FBE8F7400A2B0ED /* LaunchScreen.storyboard */,
 				5C69EBBE1FBE8F7400A2B0ED /* Info.plist */,
+				5C69EBD41FBE929B00A2B0ED /* images.png */,
+				5C69EBD21FBE925A00A2B0ED /* 249072-200.png */,
+				5C69EBD61FBE92C400A2B0ED /* business.png */,
+				5C69EBD81FBE92F600A2B0ED /* 66766-200.png */,
+				5C0759AE1FC2454A000D3DCF /* GoogleService-Info.plist */,
+				5CF922211FC250AB00F63F14 /* TransactionModel.swift */,
 			);
 			path = "Cloud Bank";
 			sourceTree = "<group>";
@@ -96,6 +146,15 @@
 			path = "Cloud BankTests";
 			sourceTree = "<group>";
 		};
+		ADDCD7E1286B53856E475527 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66B15C9CB1F36C6261232119 /* Pods_Cloud_Bank.framework */,
+				8B764E502CF4BEE2791E3425 /* Pods_Cloud_BankTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C69EBCC1FBE8F7400A2B0ED /* Build configuration list for PBXNativeTarget "Cloud Bank" */;
 			buildPhases = (
+				2C286EDA8BAE196DCC01C167 /* [CP] Check Pods Manifest.lock */,
 				5C69EBAB1FBE8F7400A2B0ED /* Sources */,
 				5C69EBAC1FBE8F7400A2B0ED /* Frameworks */,
 				5C69EBAD1FBE8F7400A2B0ED /* Resources */,
+				AA68A95CDD6A65549CB24C1F /* [CP] Embed Pods Frameworks */,
+				6A19F43222A596EDDECAE843 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +182,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C69EBCF1FBE8F7400A2B0ED /* Build configuration list for PBXNativeTarget "Cloud BankTests" */;
 			buildPhases = (
+				9E5C074EB251B16B8C9504E2 /* [CP] Check Pods Manifest.lock */,
 				5C69EBBF1FBE8F7400A2B0ED /* Sources */,
 				5C69EBC01FBE8F7400A2B0ED /* Frameworks */,
 				5C69EBC11FBE8F7400A2B0ED /* Resources */,
+				236DFE4ADC766D1626DE2948 /* [CP] Embed Pods Frameworks */,
+				57E43D8EA042CDBF1E3D6610 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -179,8 +244,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C69EBD31FBE925A00A2B0ED /* 249072-200.png in Resources */,
+				5C0759AF1FC2454A000D3DCF /* GoogleService-Info.plist in Resources */,
+				5C69EBD71FBE92C400A2B0ED /* business.png in Resources */,
+				5C69EBD51FBE929B00A2B0ED /* images.png in Resources */,
 				5C69EBBD1FBE8F7400A2B0ED /* LaunchScreen.storyboard in Resources */,
 				5C69EBBA1FBE8F7400A2B0ED /* Assets.xcassets in Resources */,
+				5C69EBD91FBE92F600A2B0ED /* 66766-200.png in Resources */,
 				5C69EBB81FBE8F7400A2B0ED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -194,12 +264,126 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		236DFE4ADC766D1626DE2948 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cloud BankTests/Pods-Cloud BankTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C286EDA8BAE196DCC01C167 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cloud Bank-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57E43D8EA042CDBF1E3D6610 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cloud BankTests/Pods-Cloud BankTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A19F43222A596EDDECAE843 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cloud Bank/Pods-Cloud Bank-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E5C074EB251B16B8C9504E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cloud BankTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA68A95CDD6A65549CB24C1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Cloud Bank/Pods-Cloud Bank-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cloud Bank/Pods-Cloud Bank-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5C69EBAB1FBE8F7400A2B0ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CF922221FC250AB00F63F14 /* TransactionModel.swift in Sources */,
+				5C751FBF1FC22A2700BB4B86 /* Transactions.swift in Sources */,
 				5C69EBB51FBE8F7400A2B0ED /* ViewController.swift in Sources */,
+				5CF922201FC24F5400F63F14 /* TransactionsTableViewCell.swift in Sources */,
+				5C751FC11FC22A8F00BB4B86 /* AccountsViewController.swift in Sources */,
 				5C69EBB31FBE8F7400A2B0ED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,9 +535,11 @@
 		};
 		5C69EBCD1FBE8F7400A2B0ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 828C4E0073B2BAFA9A67BD9A /* Pods-Cloud Bank.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MMGHEJBD7N;
 				INFOPLIST_FILE = "Cloud Bank/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.leaf.Cloud-Bank";
@@ -365,9 +551,11 @@
 		};
 		5C69EBCE1FBE8F7400A2B0ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19526BFB08BA481F785C2FDB /* Pods-Cloud Bank.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MMGHEJBD7N;
 				INFOPLIST_FILE = "Cloud Bank/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.leaf.Cloud-Bank";
@@ -379,6 +567,7 @@
 		};
 		5C69EBD01FBE8F7400A2B0ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1448E237F5B336BC4A4744DB /* Pods-Cloud BankTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -395,6 +584,7 @@
 		};
 		5C69EBD11FBE8F7400A2B0ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77E7959B6FBC114067A30FE7 /* Pods-Cloud BankTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
